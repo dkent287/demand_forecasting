@@ -18,7 +18,7 @@ def datacheck(starting,zip,city_state):
 
 # Google Maps Api Call Function
 def extract_lat_lng(address_or_postalcode, country_code, data_type = 'json'):
-    api_key = "AIzaSyA6vycgsRoAKQdgm2ZGK63itAvslQIK7qE"
+    api_key = "hello_there"
     endpoint = f"https://maps.googleapis.com/maps/api/geocode/{data_type}"
     country = f"country:{country_code}"
     params = {"address": address_or_postalcode, "key": api_key, "components": country}
